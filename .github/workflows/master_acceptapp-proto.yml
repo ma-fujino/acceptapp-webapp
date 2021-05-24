@@ -30,7 +30,7 @@ jobs:
         name: java-app
         #name: app
         #path: '${{ github.workspace }}/target/*.war'
-        path: 'C:/Users/ma-fujino\Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/PostgresApp/target/*.war'
+        path: 'C:/Users/ma-fujino\Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/PostgresApp/target/app.war'
 
   deploy:
     runs-on: windows-latest
