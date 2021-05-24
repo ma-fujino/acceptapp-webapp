@@ -29,7 +29,8 @@ jobs:
       with:
         #name: java-app
         name: app
-        path: '${{ github.workspace }}/target/*.war'
+        #path: '${{ github.workspace }}/target/*.war'
+        path: 'C:/Users/ma-fujino\Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/PostgresApp/target/*.war'
 
   deploy:
     runs-on: windows-latest
@@ -44,7 +45,10 @@ jobs:
       with:
         #name: java-app
         name: app
+<<<<<<< HEAD
 
+=======
+>>>>>>> 05485754b0bb9c255374a2c2539c159aa4dea13c
 
     - name: Deploy to Azure Web App
       id: deploy-to-webapp
