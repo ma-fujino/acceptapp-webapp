@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.postgres.springboot</groupId>
 	<artifactId>PostgresApp</artifactId>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<!-- <artifactId>PostgresApp</artifactId> -->
 	<version>0.0.1-SNAPSHOT</version>
 	<name>PostgresApp</name>
