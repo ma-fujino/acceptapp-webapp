@@ -27,8 +27,8 @@ jobs:
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v2
       with:
-        #name: java-app
-        name: app
+        name: java-app
+        #name: app
         #path: '${{ github.workspace }}/target/*.war'
         path: 'C:/Users/ma-fujino\Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/PostgresApp/target/*.war'
 
@@ -43,8 +43,8 @@ jobs:
     - name: Download artifact from build job
       uses: actions/download-artifact@v2
       with:
-        #name: java-app
-        name: app
+        name: java-app
+        #name: app
 #<<<<<<< HEAD
 
 #=======
