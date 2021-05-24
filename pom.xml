@@ -9,9 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.postgres.springboot</groupId>
-	<artifactId>app</artifactId>
+	<artifactId>PostgresApp</artifactId>
+	<packaging>war</packaging>
 	<!-- <artifactId>PostgresApp</artifactId> -->
-	<!-- <version>0.0.1-SNAPSHOT</version> -->
+	<version>0.0.1-SNAPSHOT</version>
 	<name>PostgresApp</name>
 	<description>sample project for Spring Boot And PostgresSQL</description>
 	<properties>
@@ -58,7 +59,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>ROOT</finalName>
+		<finalName>app</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
