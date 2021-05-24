@@ -45,10 +45,10 @@ jobs:
       with:
         #name: java-app
         name: app
-<<<<<<< HEAD
+#<<<<<<< HEAD
 
-=======
->>>>>>> 05485754b0bb9c255374a2c2539c159aa4dea13c
+#=======
+#>>>>>>> 05485754b0bb9c255374a2c2539c159aa4dea13c
 
     - name: Deploy to Azure Web App
       id: deploy-to-webapp
